@@ -1,7 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@theme {
+  --container-center: true;
+  --container-padding: 15px;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 748px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1430px;
+
+  --font-primary: var(--font-cormorant_upright);
+  --font-secondary: var(--font-open_sans);
+
+  --color-primary: #100e0e;
+  --color-secondary: #787f8a;
+  --color-accent: #c7a17a;
+  --color-accent-hover: #a08161;
+
+  --background-image-hero_overlay: url('/assets/hero/hero-overlay.png');
+  --background-image-opening_hours: url('/assets/opening-hours/bg.png');
+  --background-image-footer: url('/assets/footer/bg.png');
+}
 @layer base {
   body {
     @apply font-secondary text-secondary leading-relaxed;

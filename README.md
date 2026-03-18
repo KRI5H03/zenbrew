@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zenbrew ☕️
 
-## Getting Started
+**Zenbrew** is a modern, responsive coffee shop website frontend. This is my second practice project, built to explore modern animation libraries, smooth scrolling, and advanced UI interactions within the Next.js ecosystem.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was built using a powerful modern frontend stack:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations & Interactions**: 
+  - [Framer Motion v12](https://www.framer.com/motion/) for declarative React animations
+  - [GSAP](https://gsap.com/) for complex, timeline-based animations
+  - [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/) for smooth scrolling effects
+  - [Split-Type](https://github.com/lukePeavey/SplitType) for advanced text reveal animations
+- **Components & UI**:
+  - [Swiper](https://swiperjs.com/) for modern aesthetic carousels
+  - [React Icons](https://react-icons.github.io/react-icons/) for scalable iconography
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Modern Animations**: Complex enter/exit animations using Framer Motion variants.
+- **Smooth Scrolling**: Immersive browsing experience using Locomotive Scroll.
+- **Text Reveal Effects**: Beautiful typography animations integrated with Split-Type and GSAP.
+- **Responsive Design**: fully mobile-friendly design utilizing Tailwind CSS.
+- **Latest Next.js & React**: Utilizing React 19 and Next.js 16 with Turbopack for lightning-fast development.
 
-## Learn More
+## 💻 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 What I Learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+As my second practice project, Zenbrew helped me solidify my understanding of:
 
-## Deploy on Vercel
+- Integrating multiple animation libraries (GSAP + Framer Motion) without conflicts.
+- Updating and migrating configurations (e.g., Tailwind v3 to v4).
+- TypeScript strict typing (especially with library updates like enforcing Tuples in Framer Motion v12).
+- Building an aesthetic, production-ready landing page layout.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Created with ❤️ for learning and building awesome web experiences.*

@@ -29,15 +29,15 @@ const links = [
 
 const letterAnimaton = {
   initial: { y: "100%", opacity: 0 },
-  enter: (i: [number, number]) => ({
+  enter: (i: number[]) => ({
     y: 0,
     opacity: 1,
-    transition: { duration: 1.5, ease: [0.6, 0, 0.23, 1], delay: i[0] },
+    transition: { duration: 1.5, ease: [0.6, 0, 0.23, 1] as const, delay: i[0] },
   }),
-  exit: (i: [number, number]) => ({
+  exit: (i: number[]) => ({
     y: "100%",
     opacity: 0,
-    transition: { duration: 0.8, ease: [0.6, 0, 0.23, 1], delay: i[1] },
+    transition: { duration: 0.8, ease: [0.6, 0, 0.23, 1] as const, delay: i[1] },
   }),
 };
 
